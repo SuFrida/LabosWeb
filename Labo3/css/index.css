@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+  body { 
+      text-align: center;
+
+  } 
+  nav {
+    background-color: gray;
+    display: flex;
+    justify-content: right;
+    color: whitesmoke;
+  }
+  nav ul {
+    display: none;
+  }
+
+  header {
+    display: block;
+  }
+  main{
+    margin: 2%;
+  }
+  section {
+    border-color: gray;
+    border-width: thin;
+    border-style: solid;
+  }
+
+  footer{
+    border-top: 2px solid gray;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer ul li {
+    list-style: none;
+    display: inline-flex;
+  }
+} 
+
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+  body { 
+      text-align: center;
+
+  } 
+  nav {
+    background-color: gray;
+    display: flex;
+    justify-content: right;
+    color: whitesmoke;
+  }
+  nav ul {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+  }
+
+  .logo {
+    display: inline-flex;
+    width: max-content;
+  }
+
+  header h1 {
+    display: inline-flex;
+    margin: 2%;
+  }
+
+  main{
+    margin: 2%;
+  }
+  section {
+    border-color: gray;
+    border-width: thin;
+    border-style: solid;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer ul li {
+    list-style: none;
+    display: inline-flex;
+  }
+} 
+
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px){ 
+  body { 
+    text-align: center;
+
+} 
+nav {
+  background-color: gray;
+  display: flex;
+  justify-content: right;
+  color: whitesmoke;
+  padding: 25px 50px;
+}
+nav ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+nav ul li {
+  margin: 10px 50px;
+}
+
+header {
+  display: block;
+}
+main{
+  margin: 2%;
+}
+section {
+  border-color: gray;
+  border-width: thin;
+  border-style: solid;
+}
+
+.hamburger {
+  display: none;
+}
+
+footer{
+  border-top: 2px solid gray;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-flex;
+}
+} 
