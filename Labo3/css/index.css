@@ -144,6 +144,19 @@ section {
 .hamburger {
   display: none;
 }
+header img .logo {
+  display: inline-flex;
+  width: max-content;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header h1 {
+  display: inline-flex;
+}
 
 footer{
   border-top: 2px solid gray;
